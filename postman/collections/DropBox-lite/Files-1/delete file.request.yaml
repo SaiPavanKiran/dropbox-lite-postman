@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/files/d3788b51-b36c-4a80-ad54-d02e0bede0ab
+method: DELETE
+order: 4501546947190969

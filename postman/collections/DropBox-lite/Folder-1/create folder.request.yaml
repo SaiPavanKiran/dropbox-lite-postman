@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/folders/create
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"parentFolderId\": \"f08c6584-401c-4d6f-9c67-3c19644eeb35\",\r
+
+    \    \"name\": \"32\"\r
+
+    }"
+order: 1790747685329

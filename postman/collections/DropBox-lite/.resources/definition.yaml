@@ -1,0 +1,14 @@
+$kind: collection
+variables:
+  - key: ip
+    value: ""
+    disabled: false
+  - key: json_web_token_016y
+    secret: true
+    disabled: false
+auth:
+  - id: 1d6d65bb-9f65-4954-b9b5-2e2ee28b8508
+    type: bearer
+    name: Bearer Token
+    credentials:
+      token: "{{json_web_token_016y}}"

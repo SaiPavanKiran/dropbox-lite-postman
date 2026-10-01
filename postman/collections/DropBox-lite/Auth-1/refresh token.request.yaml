@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/auth/refresh
+method: POST
+body:
+  type: json
+  content: ""
+auth:
+  type: inherit
+  credentials:
+    id: 1d6d65bb-9f65-4954-b9b5-2e2ee28b8508
+order: 1634

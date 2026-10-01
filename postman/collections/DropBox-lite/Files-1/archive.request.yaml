@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/files/archive
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"fileIds\": [\r
+
+    \        \"d71a4744-c9d4-4622-8242-03a54f033ea1\"\r
+
+    \    ]\r
+
+    }"
+order: 4498833707345996

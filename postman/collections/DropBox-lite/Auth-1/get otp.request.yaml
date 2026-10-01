@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/auth/otp
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\":\"dummy.email@gmail.com\"\r
+
+    }"
+auth:
+  type: noauth
+order: 2000

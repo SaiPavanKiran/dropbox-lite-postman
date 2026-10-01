@@ -1,0 +1,20 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/files?page=0&size=20&parentFolderId=4d7fbe36-8a20-4ecf-bd0f-4902ebbc4efa
+method: GET
+headers:
+  - key: Authorization
+    value: ""
+    disabled: true
+    description: ""
+queryParams:
+  page: "0"
+  size: "20"
+  parentFolderId: 4d7fbe36-8a20-4ecf-bd0f-4902ebbc4efa
+body:
+  type: json
+  content: ""
+auth:
+  type: inherit
+  credentials:
+    id: 1d6d65bb-9f65-4954-b9b5-2e2ee28b8508
+order: 1163797338587191

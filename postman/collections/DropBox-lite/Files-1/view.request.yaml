@@ -1,0 +1,4 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/files/view/bb926269-ee7e-4cdc-9b7c-48b0096200bb
+method: GET
+order: 4497262079123102

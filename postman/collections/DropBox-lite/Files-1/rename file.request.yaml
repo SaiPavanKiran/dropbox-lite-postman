@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/files/b6818955-e9f4-4613-8aca-d899cd792c53/rename
+method: PATCH
+body:
+  type: json
+  content: "{\r
+
+    \    \"name\":\"test-document.pdf\"\r
+
+    }"
+order: 4493834622338578

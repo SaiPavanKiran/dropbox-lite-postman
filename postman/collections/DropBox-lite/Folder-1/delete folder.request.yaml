@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/folders/3bd0d673-ea16-48e7-8e22-717adc577b57?recursive=true
+method: DELETE
+queryParams:
+  recursive: "true"
+order: 2114676813602086

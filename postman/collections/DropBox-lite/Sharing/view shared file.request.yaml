@@ -1,0 +1,9 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/sharing/8072c665-54e7-4dd5-9637-91eec141fbcd/view?sharedBy=dummy.email@gmail.com
+method: GET
+queryParams:
+  - key: sharedBy
+    value: dummy.email@gmail.com
+    disabled: false
+    description: ""
+order: 4446110990158983

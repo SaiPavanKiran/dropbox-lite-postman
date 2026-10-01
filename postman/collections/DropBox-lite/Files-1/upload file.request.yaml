@@ -1,0 +1,13 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/files/upload/d71a4744-c9d4-4622-8242-03a54f033ea1/complete
+method: POST
+body:
+  type: formdata
+  content:
+    - type: file
+      key: file
+      src:
+        - /C:/Users/saipa/Downloads/event_history.csv
+      description: ""
+      disabled: false
+order: 921348792080835

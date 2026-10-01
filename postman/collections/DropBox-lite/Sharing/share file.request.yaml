@@ -1,0 +1,15 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/sharing
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"recipientEmail\": \"dummy.email@gmail.com\",\r
+
+    \    \"objectId\": \"8072c665-54e7-4dd5-9637-91eec141fbcd\",\r
+
+    \    \"shareDurationInMin\": 30\r
+
+    }"
+order: 1790748898258

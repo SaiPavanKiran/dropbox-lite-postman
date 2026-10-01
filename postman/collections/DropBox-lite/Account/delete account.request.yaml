@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/account?email=dummy.email@gmail.com&password=123456789&otp=12232332
+method: DELETE
+queryParams:
+  email: dummy.email@gmail.com
+  password: "123456789"
+  otp: "12232332"
+order: 3504921779870017

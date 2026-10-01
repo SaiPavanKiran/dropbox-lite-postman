@@ -1,0 +1,11 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/files/4961a634-8f70-4f11-a4ae-5f377042baaf/copy
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"toFolder\": \"3f1080d7-3ef6-479f-bd0b-c804d183a076\"\r
+
+    }"
+order: 3480574322461329

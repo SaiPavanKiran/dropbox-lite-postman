@@ -1,0 +1,17 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/files/upload
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \  \"folderId\": null,\r
+
+    \  \"name\": \"maybe-unique-12\",\r
+
+    \  \"contentType\": \"application/pdf\",\r
+
+    \  \"size\": 1\r
+
+    }\r\n"
+order: 1790676352781

@@ -1,0 +1,6 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/sharing/19d7f943-8012-4083-92eb-0a6118439f5a?sharedTo=dummy.email@gmail.com
+method: DELETE
+queryParams:
+  sharedTo: dummy.email@gmail.com
+order: 4254958554010568

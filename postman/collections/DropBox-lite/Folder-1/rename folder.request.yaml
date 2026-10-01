@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/folders/b0b01e7d-5aa0-45f2-9aaf-968a2e78ce42/rename
+method: PATCH
+body:
+  type: json
+  content: "{\r\n    \"name\": \"3a\"\r\n}"
+order: 331746656842230

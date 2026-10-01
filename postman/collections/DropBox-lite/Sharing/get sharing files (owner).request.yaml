@@ -1,0 +1,7 @@
+$kind: http-request
+url: http://{{ip}}/dropbox-lite/sharing/.sharing?page=0&size=2
+method: GET
+queryParams:
+  page: "0"
+  size: "2"
+order: 3766081371683765
